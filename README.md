@@ -1,5 +1,4 @@
-# ohw25_zooplankton
-Next Day Predictive Modeling for Zooplankton using AI
+## Next Day Predictive Modeling for Zooplankton using AI (ohw25_zooplankton)
 Team Members: Syed Usama Imtiaz, Rui Jin, Ismat Jahan, Dafrosa Kataraihya; Mentor: Dwight Owens
 
 Project Summary: The zooplankton prediction is linked to aquatic health and the proliferation of phytoplankton, which can then cause harmful algal blooms. The next day prediction can enable early warning. 
