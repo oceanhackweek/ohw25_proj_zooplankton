@@ -32,12 +32,10 @@ From signals at every meter we calculated the vertical deltas. We also grouped v
 ### Feature development
 In addition to the environmental variables, we chose additional time-related features including hour, date, month, year. We also checked for variances over 80% between depth layers to derive significant deltas, which could be used as features. 
 
-Checked correlation
-New features that are meaningful to predict the target
-    added features, date, time, month, year, lags, deltas, 
+We generated a plot summarizing signal distribution across all depths over the full 2008-2010 time period, in order to visualize the data assess temporal patterns.
     
 ### Model selection
-For our initial model, we chose as our benchmark model a Multilayer Peceptron model (Rumelhart, 1986), which is a feed-forward neural network, which can be used to investigate multi target regression problems. We developed a linear regression for each target variable by using a multi-target regressor. This benchamark model can indicate whether there is a need for a more complex non-linear model.
+For our initial model, we chose as our benchmark model a linear regression model, Multilayer Peceptron (Rumelhart, 1986), which is a feed-forward neural network. We developed a linear regression for each target variable by using a multi-target regressor. This benchamark model can indicate whether there is a need for a more complex non-linear model.
 
 ### Modeling
 We ran the model to develop predictions for zooplankton concentrations and migrations. 
