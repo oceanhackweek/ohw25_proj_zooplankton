@@ -1,7 +1,5 @@
 ## AI Assisted Next Day Predictive Modeling for Zooplankton (ohw25_zooplankton)
-Team Members: Syed Usama Imtiaz, Dafrosa Kataraihya, Ismat Jahan; 
-## Mentor: 
-Dwight Owens, Dr. Rui Jin
+#### Team Members: Syed Usama Imtiaz, Dafrosa Kataraihya, Ismat Jahan; Mentors: Dwight Owens, Dr. Rui Jin
 
 ## Project Summary
 Zooplankton Acoustic Profiler (ZAP) systems can be used to monitor abundance and migration patterns of zooplankton in the water column. We wanted to know if a rich ZAP dataset, with accompanying environmental variables, could be used to develop a zooplankton prediction model. Since zooplankton are keystone species in the marine environment, prediction modeling could support aquatic health monitoring systems. 
