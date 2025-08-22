@@ -36,8 +36,7 @@ In addition to the environmental variables, we chose additional time-related fea
 
 We generated a plot summarizing signal distribution across all depths over the full 2008-2010 time period, in order to visualize the data assess temporal patterns.
 
-DWIGHT WILL REVISE THIS!
-For each time-varying variable and depth horizons h∈{1,3,6,12,24,48,72}h \in \{1,3,6,12,24,48,72\} hours, we computed: (i) lags x(t−h)x(t-h), capturing persistence/autocorrelation; (ii) absolute changes Δh(t)=x(t)−x(t−h)\Delta_h(t)=x(t)-x(t-h), capturing short-term steps such as fronts or mixing events; (iii) momentum deltas between two past points Δh1→h2(t)=x(t−h1)−x(t−h2)\Delta_{h_1\to h_2}(t)=x(t-h_1)-x(t-h_2) for (h1,h2)∈{(1,24),(3,24),(6,24)}(h_1,h_2)\in\{(1,24),(3,24),(6,24)\}, summarizing 1-day trends without using the current value; and (iv) percent changes (x(t)−x(t−h))/max⁡(∣x(t−h)∣,ε)(x(t)-x(t-h))/\max(|x(t-h)|,\varepsilon) with ε=10−12\varepsilon=10^{-12} to avoid divide-by-zero, providing scale-free sensitivity to relative jumps.
+For each time-varying variable and depth horizon, we computed: lags, capturing persistence/autocorrelation; absolute changes, capturing short-term steps such as fronts or mixing events; momentum deltas between two past points, summarizing 1-day trends without using the current value; and percent changes.
     
 ### Model selection
 For our initial model, we chose as our benchmark model a linear regression model, Multilayer Peceptron (Rumelhart, 1986), which is a feed-forward neural network. We developed a linear regression for each target variable by using a multi-target regressor. This benchamark model can indicate whether there is a need for a more complex non-linear model.
